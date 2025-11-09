@@ -81,8 +81,8 @@ def run_inference_basic(model, source, save=True, imgsz=640, conf=0.7):
 
 def main():
     # PATHS
-    MODEL_PATH = r'C:/Users/s/OneDrive - University of Eastern Finland/Project/best.pt'
-    SOURCE_PATH = r'C:/Users/s/OneDrive - University of Eastern Finland/Project/Test files/20250625_114907474_iOS.jpg'
+    MODEL_PATH = r'C:/Path to the model'
+    SOURCE_PATH = r'C:/Path to the Image'
     
     # Initialize model
     model = setup_model(MODEL_PATH)
